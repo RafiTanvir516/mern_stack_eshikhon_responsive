@@ -1,0 +1,187 @@
+/* responsive for 768px */
+@media only screen and (max-width:768px) {
+    /* head */
+    .navbar{
+        display: block;
+        justify-content: center;
+    }
+    .headernav{
+        display: block;
+    }
+    h1{
+        text-align: center;
+    }
+    .navbar ul li a{
+        margin-right: 20px;
+    }
+    #container1{
+       display: flex;
+       flex-direction: column-reverse;
+       justify-content: center;
+       align-items: center;
+    }
+    .sec1secondchild img{
+        border: 10px solid violet;
+        border-radius:50%;
+        display: block;
+        margin-top:30px ;
+    }
+    #container1 >div{
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 20px 0;
+        gap: 30px;
+    }
+    #container1 img{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .sec1firstchild h2{
+        text-align: center;
+        font-size: 40px;
+    }
+    .sec1firstchild p{
+        text-align: center;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .container2{
+        flex-wrap: wrap;
+    }
+    .sec2 hr{
+        display: none;
+    }
+    .container3{
+        grid-template-columns: repeat(2, 250px);
+        justify-content: center;
+        align-items: center;
+    }
+    .container3 img{
+        width: 200px;
+        height: 150px;
+    }
+    .container4{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container4 h2{
+        text-align: center;
+        font-size: 40px;
+    }
+    .container4 p{
+        text-align: center;
+    }
+    .sec4secondchild{
+        margin-top: 35px;
+    }
+    .sec4secondchild img{
+        display: block;
+        margin: 0 auto;
+    }
+    footer{
+        width: 99%;
+    }
+}
+@media only screen and (max-width:576px) {
+    .navbar{
+        display: block;
+        justify-content: center;
+    }
+    .headernav{
+        display: block;
+    }
+    h1{
+        text-align: center;
+    }
+    #container1{
+       display: flex;
+       flex-direction: column-reverse;
+       justify-content: center;
+       align-items: center;
+    }
+    .sec1secondchild img{
+        border: 10px solid violet;
+        border-radius:50%;
+        display: block;
+        margin-top:30px ;
+    }
+    #container1 >div{
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 20px 0;
+        gap: 30px;
+    }
+    #container1 img{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .sec1firstchild h2{
+        text-align: center;
+        font-size: 40px;
+    }
+    .sec1firstchild p{
+        text-align: center;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .container2{
+        flex-wrap: wrap;
+    }
+    .sec2 hr{
+        display: none;
+    }
+    .container3{
+        grid-template-columns: repeat(1, 350px);
+        justify-content: center;
+        align-items: center;
+    }
+    .container3 img{
+        width: 300px;
+        height: 200px;
+    }
+    .container4{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container4 >div{
+        justify-content: center;
+        align-items: center;
+    }
+    .sec4firstchild h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    .sec4firstchild p{
+        text-align: center;
+        font-size: 20px;
+    }
+    .sec4secondchild{
+        margin-top: 35px;
+    }
+    .sec4secondchild img{
+        display: block;
+        margin: 0 auto;
+    }
+    footer{
+        width: 99%;
+    }
+}
